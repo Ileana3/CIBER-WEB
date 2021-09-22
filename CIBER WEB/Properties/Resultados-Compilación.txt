@@ -1,0 +1,4 @@
+﻿Operación Compilar iniciada..
+1>------ Operación Compilar iniciada: proyecto: CIBER WEB, configuración: Debug Any CPU ------
+1>C:\Users\jorge\Desktop\REQUERIMIENTOS DEL PROYECTO DE PRACTICA\PRACTICA\PROYECTO\CIBER WEB\CIBER WEB\PACIENTE.Designer.cs(205,71,205,80): error CS0426: El nombre de tipo 'Empleados' no existe en el tipo 'CIBER_WEB'
+========== Compilar: 0 correctos, 1 incorrectos, 0 actualizados, 0 omitidos ==========

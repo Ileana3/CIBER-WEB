@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="02f27379b2ef485bb0ed736618ddbb47" Name="Diagram1">
+        <EntityTypeShape EntityType="PROYECTO_DBD_CIBER_WEBModel.Cargo" Width="1.5" PointX="6" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROYECTO_DBD_CIBER_WEBModel.Categoria_del_producto" Width="1.5" PointX="5.25" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROYECTO_DBD_CIBER_WEBModel.Clientes" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROYECTO_DBD_CIBER_WEBModel.Compra" Width="1.5" PointX="7.5" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROYECTO_DBD_CIBER_WEBModel.Departamento" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROYECTO_DBD_CIBER_WEBModel.Detalle_de_Compra" Width="1.5" PointX="9.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROYECTO_DBD_CIBER_WEBModel.Detalle_del_Servicio" Width="1.5" PointX="12.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROYECTO_DBD_CIBER_WEBModel.Direccion" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROYECTO_DBD_CIBER_WEBModel.Empleados" Width="1.5" PointX="8.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROYECTO_DBD_CIBER_WEBModel.Maquinas" Width="1.5" PointX="8.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROYECTO_DBD_CIBER_WEBModel.Municipio" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROYECTO_DBD_CIBER_WEBModel.Productos" Width="1.5" PointX="7.5" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROYECTO_DBD_CIBER_WEBModel.Proveedores" Width="1.5" PointX="5.25" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROYECTO_DBD_CIBER_WEBModel.Servicio" Width="1.5" PointX="10.5" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROYECTO_DBD_CIBER_WEBModel.Sexo" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROYECTO_DBD_CIBER_WEBModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROYECTO_DBD_CIBER_WEBModel.Ventas" Width="1.5" PointX="10.5" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="PROYECTO_DBD_CIBER_WEBModel.FK_Empleados_id_cargo" ManuallyRouted="false" />
+        <AssociationConnector Association="PROYECTO_DBD_CIBER_WEBModel.FK_Productos_id_categoria" ManuallyRouted="false" />
+        <AssociationConnector Association="PROYECTO_DBD_CIBER_WEBModel.FK_Clientes_id_direccion" ManuallyRouted="false" />
+        <AssociationConnector Association="PROYECTO_DBD_CIBER_WEBModel.FK_Clientes_id_sexo" ManuallyRouted="false" />
+        <AssociationConnector Association="PROYECTO_DBD_CIBER_WEBModel.FK_Ventas_id_cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="PROYECTO_DBD_CIBER_WEBModel.FK_Compra_id_proveedores" ManuallyRouted="false" />
+        <AssociationConnector Association="PROYECTO_DBD_CIBER_WEBModel.FK_Detalle_de_Compra_id_compra" ManuallyRouted="false" />
+        <AssociationConnector Association="PROYECTO_DBD_CIBER_WEBModel.FK_Departamento_id_departamento" ManuallyRouted="false" />
+        <AssociationConnector Association="PROYECTO_DBD_CIBER_WEBModel.FK_Detalle_de_Compra_id_producto" ManuallyRouted="false" />
+        <AssociationConnector Association="PROYECTO_DBD_CIBER_WEBModel.FK_Detalle_del_Servicio_id_servicio" ManuallyRouted="false" />
+        <AssociationConnector Association="PROYECTO_DBD_CIBER_WEBModel.FK_Detalle_del_Servicio_id_venta" ManuallyRouted="false" />
+        <AssociationConnector Association="PROYECTO_DBD_CIBER_WEBModel.FK_Direccion_id_municipio" ManuallyRouted="false" />
+        <AssociationConnector Association="PROYECTO_DBD_CIBER_WEBModel.FK_Empleados_id_direccion" ManuallyRouted="false" />
+        <AssociationConnector Association="PROYECTO_DBD_CIBER_WEBModel.FK_Proveedores_id_direccion" ManuallyRouted="false" />
+        <AssociationConnector Association="PROYECTO_DBD_CIBER_WEBModel.FK_Empleados_id_sexo" ManuallyRouted="false" />
+        <AssociationConnector Association="PROYECTO_DBD_CIBER_WEBModel.FK_Ventas_id_maquina" ManuallyRouted="false" />
+        <AssociationConnector Association="PROYECTO_DBD_CIBER_WEBModel.FK_Productos_id_proveedores" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
